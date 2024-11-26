@@ -19,7 +19,10 @@ console.log(firstName + ' ' + lastName)
 
 console.log('15' * 10);
 
+// string '1' + '1' ---> string
+// string +number = string
 
+// string * num = number
 
 // Booleans
 
