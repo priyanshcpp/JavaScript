@@ -16,13 +16,14 @@ const lastName = 'Kumar';
 console.log(firstName + ' ' + lastName)
 
 
-
-console.log('15' * 10);
-
 // string '1' + '1' ---> string
 // string +number = string
 
 // string * num = number
+
+console.log('15' * 10);
+
+
 
 // Booleans
 
@@ -40,9 +41,56 @@ const person = {
     lastLoginDate: null,
 }
 
-console.log(person)
+console.log(person);
+
+
+// 
+
+console.log(typeof '123');
+
+
+const age  = 9;
+if(age >=18) {
+    console.log('Yes you can vote')
+}
+else if(age>=85) {
+    console.log('You are Old man')
+}
+else {
+    console.log('No you can not  vote')
+}
 
 
 
-// operators
+const agee = 90;
 
+let result = age >=18 ? 'Yes' : 'No'
+
+console.log('N0')
+
+
+const option = 1;
+switch(option) {
+    case 1 : console.log('Namaste!')
+    break;
+    case 2 : console.log('Hello')
+    case 3 : console.log('Bhojputi')
+    
+    default : console.log('Invalid option')
+}
+
+
+let a = 20;
+let b = 15;
+
+let opt = '*'
+
+switch(opt) {
+    case '+' : console.log(a+b);
+    break;
+    case '-' : console.log(b-a);
+    break;
+    case '*' : console.log(a*b); 
+    break;
+    console.log('idk')
+}
